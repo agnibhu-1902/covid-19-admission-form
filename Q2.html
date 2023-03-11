@@ -1,0 +1,81 @@
+<html lang="en">
+	<head>
+		<title>COVID-19 Admission Form</title>
+	</head>
+	<body bgcolor="lightblue" text="black">
+		<h1 align="center"><font face="Algerian" size="10">CALCUTTA MEDICAL COLLEGE HOSPITAL</font></h1>
+		<h2 align="center">COVID-19 ADMISSION FORM</h2>
+		<h3 align="center">(Information for Patient Disposition)</h3>
+		<center><img src="logo.png" width="100" height="100"></img></center>
+		<br><center><img src="medical_college.jpg" width="700" height="400"></img></center>
+		<br><br><marquee behavior="alternate"><h2><font color="maroon">PLEASE FILL IN THE FORM BELOW</font></h2></marquee><br><br>
+		<form>
+			<center>
+				<label for="fname"><b>First Name : </b></label>
+				<input type="text" id="fname" name="fname"></input><br><br><br>
+				<label for="lname"><b>Last Name : </b></label>
+				<input type="text" id="lname" name="lname"></input><br><br><br>
+				<label for="dob"><b>Date of Birth : </b></label>
+				<input type="date" id="dob" name="dob"></input><br><br><br>
+				<label for="email"><b>Email ID : </b></label>
+				<input type="text" id="email" name="email"></input><br><br><br>
+				<label for="phno"><b>Phone Number : </b></label>
+				<input type="numeric" id="phno" name="phno"></input><br><br><br>
+				<b>Address:</b><br><textarea rows="10" cols="30">Enter your address here</textarea><br><br><br>
+				<form action="">
+				<b>Gender : </b><select class="Gender">
+						<option value="specify">Please specify</option>
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+						<option value="Other">Other</option>
+				</select><br><br><br></form>
+				<form action="">
+				<b>Blood Group : </b><select class="Blood Group">
+						<option value="Select Group">Select Group</option>
+						<option value="A+">A+</option>
+						<option value="A-">A-</option>
+						<option value="B+">B+</option>
+						<option value="B-">B-</option>
+						<option value="O+">O+</option>
+						<option value="O-">O-</option>
+						<option value="AB+">AB+</option>
+						<option value="AB-">AB-</option>
+				</select><br><br><br></form>
+				<b>Upload Your Photo : </b><input type="file" name="file"></input><br><br><br>
+				<b>Laboratory confirmed case of COVID-19?</b>
+				<input type="radio" name="question1" value="yes">Yes</input>
+				<input type="radio" name="question1" value="no">No</input><br>
+				(If yes, <label for="dot">date of last test : <label>
+				<input type="date" id="dob" name="dob"></input>)<br><br><br>
+				<b>Previously been infected with COVID-19?</b>
+				<input type="radio" name="question2" value="yes">Yes</input>
+				<input type="radio" name="question2" value="no">No</input><br><br><br>
+				<b>Select Symptoms (if any) : </b><br>
+				<input type="checkbox" name="symptom" value="high_fever">High Fever</input><br>
+				<input type="checkbox" name="symptom" value="dry_cough">Dry Cough</input><br>
+				<input type="checkbox" name="symptom" value="runny_nose">Runny Nose</input><br>
+				<input type="checkbox" name="symptom" value="no_taste">No Taste</input><br>
+				<input type="checkbox" name="symptom" value="no_smell">No Smell</input><br>
+				<label for="fname">Other (Please specify) : </label>
+				<input type="text" id="symptom" name="symptom"></input><br><br><br>
+				<label for="O2"><b>O<sub>2</sub> saturation level (in %SpO<sub>2</sub>) : </b></label>
+				<input type="numeric" id="O2" name="O2"></input><br><br><br>
+				<form action="">
+				<b>Select Accommodation : </b><select class="Bed">
+						<option value="choose">Choose Room</option>
+						<option value="General">General</option>
+						<option value="AC">Air Conditioned</option>
+						<option value="Ventilated">Fully Ventilated</option>
+				</select><br><br></form>
+				<form action="">
+				<label for="scheme"><b>Registered with any govt. scheme? (mention here) : </b></label>
+				<input type="text" id="scheme" name="scheme"></input><br>(If no, leave blank)<br><br><br>
+				<b>Upload Lab. Test Report : </b><input type="file" name="file"></input><br><br><br>
+				<b>Want to donate plasma after recovery?</b>
+				<input type="radio" name="question3" value="yes">Yes</input>
+				<input type="radio" name="question3" value="no">No</input><br><br><br>
+				<input type="submit"></input>
+			</center>
+		</form>
+	</body>
+</html>
